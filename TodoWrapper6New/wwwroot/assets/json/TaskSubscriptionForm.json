@@ -1,0 +1,26 @@
+﻿{
+  "TaskSubscriptionForm": {
+    "ColumnInfo": {
+      "UserName":{
+        "Name": "UserName",
+        "Caption": "Tên người theo dõi",
+        "Width": 130
+      },
+      "VehicleName": {
+        "Name": "VehicleName",
+        "Caption": "Phương tiện vận chuyển",
+        "Width": 130
+      },
+      "SubctiptionType": {
+        "Name": "SubctiptionType",
+        "Caption": "Loại thông báo",
+        "Width": 100
+      },
+      "Description": {
+        "Name": "Description",
+        "Caption": "Diễn giải",
+        "Width": 130
+      }
+    }
+  }
+}

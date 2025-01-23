@@ -1,0 +1,68 @@
+{
+    "Functions": [
+        {
+            "ID": "DictionaryManagement",
+            "Name": "Danh mục",
+            "Url": "#",
+            "DisplayOrder": 4,
+            "ParentId": null,
+            "Parent": null,
+            "Status": true,
+            "IconAwesome": "fa-list",
+            "ChildFunctions": [
+                {
+                    "ID": "TASK_TODO_TEMPLATE",
+                    "Name": "Định nghĩa công việc",
+                    "Url": "/main/task/todoTemplateList",
+                    "DisplayOrder": 1,
+                    "ParentId": "DictionaryManagement",
+                    "ChildFunctions": null,
+                    "Status": true,
+                    "IconAwesome": null
+                },
+                {
+                    "ID": "TASK_VEHICLE",
+                    "Name": "Danh mục xe",
+                    "Url": "/main/task/vehicleList",
+                    "DisplayOrder": 2,
+                    "ParentId": "DictionaryManagement",
+                    "ChildFunctions": null,
+                    "Status": true,
+                    "IconAwesome": null
+                }
+            ]
+        },
+        {
+            "ID": "SystemManagement",
+            "Name": "Hệ thống",
+            "Url": "#",
+            "DisplayOrder": 5,
+            "ParentId": null,
+            "Parent": null,
+            "Status": true,
+            "IconAwesome": "fa-list",
+            "ChildFunctions": [
+                {
+                    "ID": "SystemManagement_user",
+                    "Name": "Quản lý người dùng",
+                    "Url": "/main/system/user",
+                    "DisplayOrder": 1,
+                    "ParentId": "SystemManagement",
+                    "ChildFunctions": null,
+                    "Status": true,
+                    "IconAwesome": null
+                },
+                {
+                    "ID": "SystemManagement_role",
+                    "Name": "Quản lý nhóm quyền",
+                    "Url": "/main/system/role",
+                    "DisplayOrder": 2,
+                    "ParentId": "SystemManagement",
+                    "ChildFunctions": null,
+                    "Status": true,
+                    "IconAwesome": null
+                }
+            ]
+        }
+    ]
+}
