@@ -5,8 +5,11 @@
              x:Class="TodoWrapper6New.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
-     
+    <!--https://localhost:4433-->
+    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html" BlazorWebViewInitialized="Bwv_BlazorWebViewInitialized">
+        <!--<BlazorWebView.RootComponents>
+            <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
+        </BlazorWebView.RootComponents>-->
     </BlazorWebView>
 
 </ContentPage>
